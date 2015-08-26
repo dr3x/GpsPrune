@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="6.0+" codebase="$$codebase" href="$$name">
+	<information>
+		<title>GPS Prune</title>
+		<vendor>TransApps</vendor>
+		<homepage href="index.html"/>
+		<description>Application to edit GPS tracks (gpx files)</description>
+		<description kind="short">GPS Prune</description>
+		<offline-allowed/>  
+		<shortcut online="false" install="false">
+			<desktop/>
+			<menu submenu="TransApps"/>
+		</shortcut>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.5+"/>
+		<jar href="gps_webstart.jar"/>
+	</resources>
+	<application-desc main-class="tim.prune.GpsPruner"/>
+</jnlp>

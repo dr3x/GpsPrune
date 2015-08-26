@@ -1,0 +1,11 @@
+/build/
+target/
+.classpath
+bin/
+gen/
+.project
+.settings/
+lint.xml
+/*.sh
+*.DS_Store
+build

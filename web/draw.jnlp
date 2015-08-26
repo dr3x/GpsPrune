@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="6.0+" codebase="$$codebase" href="$$name">
+	<information>
+		<title>KML Draw</title>
+		<vendor>TransApps</vendor>
+		<homepage href="index.html"/>
+		<description>Application to draw on a map (kml editor)</description>
+		<description kind="short">Draw</description>
+		<offline-allowed/>
+		<shortcut online="false" install="false">
+			<desktop/>
+			<menu submenu="TransApps"/>
+		</shortcut>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.5+"/>
+		<jar href="gps_webstart.jar"/>
+	</resources>
+	<application-desc main-class="tim.prune.KmlDraw"/>
+</jnlp>
