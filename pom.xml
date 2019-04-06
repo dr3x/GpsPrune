@@ -44,11 +44,11 @@
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.7.2</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>transapps.maptiles</groupId>
 			<artifactId>tilepack</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>

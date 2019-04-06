@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArgParser<prune>",
+            "request": "launch",
+            "mainClass": "com.bbn.openmap.util.ArgParser",
+            "projectName": "prune"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Debug<prune>",
+            "request": "launch",
+            "mainClass": "com.bbn.openmap.util.Debug",
+            "projectName": "prune"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GpsPruner<prune>",
+            "request": "launch",
+            "mainClass": "tim.prune.GpsPruner",
+            "projectName": "prune"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KmlDraw<prune>",
+            "request": "launch",
+            "mainClass": "tim.prune.KmlDraw",
+            "projectName": "prune"
+        }
+    ]
+}
